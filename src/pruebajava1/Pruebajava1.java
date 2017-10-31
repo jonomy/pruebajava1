@@ -3,50 +3,40 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pruebajava1;
-
+package pruebajava1 ;
+import java.util.Scanner;
 /*******************************************************************************
- *
- *
- * @autor LABO3
- * fecha:octubre 30 de 2017
- * programa:pruebajava1
- * Responsabilidad:clase principal
- *
- */
-public class Pruebajava1 {
-    
-    /**
+ *cecilia b
+ * @author LP 13
+ * Fecha:Octubre 30 de 20017
+ * Programa: pruebajava1
+ * Responsabilidad: calcular  el area del  triangulo
+ *****************************************************************************/
+public class aptarea
+{  
     /**
      * @param args the command line arguments
      */
-    public static /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package pruebajava1;
-
-/*******************************************************************************
- *cecilia
- * @author LP 13
- * Fecha:Octubre 30 de 20017
- * Programa: Clase3A
- * Responsabilidad: clase principal
-*****************************************************************************/
-//metodo constructor
-
-
-
-
-public static void main (string)[] arg)´{
-    string. out. println("por favor ingrese el area");
-    string .out.println("por favaor ingrese base");
-    string.out.println("por favor ingrese altura")
-    //Aplicacion del proyecto
-    // Todo code application logic hare
-            
+    public static void main(String[] args) {
+// TODO code application logic hereç
+        int numerobase;//Declaracion de variable tipo entero base
+        
+      int numeroaltura;//Declaracion variable tipo entera altura
+     
+      Scanner escaner = new Scanner(System.in);
+      System.out.println("ingrese el  numero  de la  base  de  su triangulo");
+      numerobase= escaner.nextInt();
+       System.out.println("ingrese el numero altura de  su triangulo");
+       numeroaltura= escaner.nextInt();    
+ System.out.println ("Multiplicacion de  la base y la  altura  de  su triangulo  es : "+(numerobase*numeroaltura));
+    }
+    
+    
 }
-float Area = restangulo
-float base = restangulo
-float altura= restangulo
+
+            
+            
+
+
+        
+        
